@@ -24,5 +24,8 @@ contract Arrays{
     function popLastElement() public {
         values.pop();
     }
-
 }
+
+// создайте список numbers
+// создайте функции addNumber, addNumberByValue и numbersLength
+// добавьте числа с одного до 10

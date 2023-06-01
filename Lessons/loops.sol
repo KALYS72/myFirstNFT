@@ -15,7 +15,18 @@ contract myLoop {
         }
     }
 
-    uint[] myArray = [1, 2, 3, 4, 5];
+    uint[] public myArray = [1, 2, 3, 4, 5];
+
+    function reFull(uint times) public {
+        delete myArray;
+        for (uint i = 0; i < times; i++) {
+            myArray.push(i+1);
+        }
+    }
+
+    function myArrayLength() public view returns (uint) {
+        return myArray.length;
+    }
 
     function sum () public view returns(uint) {
         uint result;
