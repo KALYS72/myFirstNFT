@@ -13,12 +13,19 @@ contract MyMapping{
     }
 
     function addName(uint room, string memory name) public {
+        require(rooms[room] == "", "this room is not avialible!")
         rooms[room] = name;
     }
 
-    function deleteRoom(uint room) public {
-        require(bytes(rooms[room]).length > 0, "this room does not exist");
-        delete rooms[room];
-    }
+    mapping(address => uint) votes;
 
+    function vote(address voter) public {
+        votes[voter]++;
+    }
+    
 }
+
+// создайте mapping ages
+// ключями будут address а значениями uint
+// создайте функцию addAdress что принимает address и age 
+// подставьте в mapping и проверьте результат

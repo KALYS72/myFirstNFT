@@ -3,7 +3,7 @@
 pragma solidity 0.8.18;
 
 contract firstContract {
-    uint public myAge = 17;
+    uint public myNumber = 17;
 
     function hello (string memory name) public pure returns (string memory){
         string memory concatenatedString = string(abi.encodePacked("Hello ", name));

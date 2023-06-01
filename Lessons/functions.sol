@@ -22,21 +22,34 @@ contract Myfunctions {
     }
 
 
+// view - функция может просматривать переменные но не может их менять
+    string private myName = "Karl";
+
+    function sayMyName() public view returns(string memory){
+        return myName;
+    }
+
+
+// pure - функция не имеет никакого доступа к информации из контракта
     function add(uint a, uint b) public pure returns (uint) {
         return a + b;
     }
 
-    function anotherAdd(uint _a, uint _b) public pure returns(uint) {
-        uint result = add(_a, _b);
-        return result;
+
+// internal - функция не может быть вызвана из контракта кроме как в самих функциях
+    function decrease(uint numberOne, uint numberTwo) internal pure returns(uint) {
+        return numberOne - numberTwo;
     }
 
 
-    // public - Доступна везде. Позволяет видеть все переменные типа public
-    // private - недоступна нигде кроме логики внутри контракта. 
-    // internal - может быть вызвана только изнутри
-    // external - может быть вызвана только снаружи
-
-    // pure - не влияет ни на что и не имеет доступа
-    // view - не влияет но имеет доступ к ним
+// external - функция не может быть вызвана внутри функций кроме как в контракте
+    function multiply(uint multiplier, numOne, numTwo) external pure returns(uint) {
+        uint result = decrease(numOne, numTwo) * multiplier;
+        return result;
+    }
 }
+
+// создайте переменную number
+// создайте функцию increment что добавляет к ней единицу
+// создайте функцию decrement что сокращает ее число
+// создайте функцию reset что обнуляет ее значение

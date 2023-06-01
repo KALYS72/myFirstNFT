@@ -17,27 +17,9 @@ contract MyMath {
         a --; // 6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
         return a;
     }
-
-    function isDividible (uint number) public pure returns (bool){
-        if (number % 2 == 0) {
-            return true;
-        }
-        else {
-            return false;
-        }
-    }
-
-    function divide(uint256 a, uint256 b) public pure returns (uint256) {
-        require(b != 0 && a != 0 , "Division by zero is not allowed");
-        uint256 result = a / b;
-        return result;
-    }
-
+}
     // создайте число со значением 10
     // умножьте на 55
     // разделите на 5
     // возведите в 3 степень 
-    // оставьте остаток от деления
-
-
-}
+    // верните остаток от деления на 10
