@@ -1,0 +1,2 @@
+transfer = 0.00015788 MATIC
+create 100 tokens = 0.02470167 MATIC

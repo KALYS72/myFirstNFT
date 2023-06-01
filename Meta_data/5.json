@@ -1,0 +1,13 @@
+{
+    "name": "Kalygul #5",
+    "description": "Photo of Kalygul, one of the best brothers in the world",
+    "image": "ipfs://QmbSQXBu8dsxbpZPpqg9bwzui88DkY6dWPUmnyHhfBCNAC",
+    "attributes": [
+      {
+        "trait_type": "mood",
+        "value": "Happy"
+      },
+      { "trait_type": "age"},
+      { "value": 25}
+    ]
+  }

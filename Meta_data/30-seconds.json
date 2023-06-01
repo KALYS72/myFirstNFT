@@ -1,0 +1,13 @@
+{
+    "name": "30 Second Nike Commercial",
+    "description": "This is a 30 second spec commercial I Directed, Shot and Edited for Nike.",
+    "image": "ipfs://QmbubE96JYez21G7RyC3ouGg9k4zpY2d9ZsvYHxRY7Wvrq",
+    "attributes": [
+      {
+        "trait_type": "Video",
+        "value": "COmmercial"
+      },
+      { "trait_type": "Data"},
+      { "value": "20.04.2020"}
+    ]
+  }
