@@ -28,4 +28,4 @@ contract Arrays{
 
 // создайте список numbers
 // создайте функции addNumber, addNumberByValue и numbersLength
-// добавьте числа с одного до 10
+// проверьте функциональность
