@@ -1,0 +1,15 @@
+{
+    "name": "My mother",
+    "description": "test token with photo of me and my mom",
+    "image": "ipfs://QmWA635gLBmenoxCZtJoVhPBBsmzyFxJoPrnWyUpduyfQH1",
+    "attributes": [
+      {
+        "trait_type": "Room",
+        "value": "kitchen"
+      },
+      {
+        "trait_type": "Mood",
+        "value": "happiness and confusion"
+      }
+    ]
+  }
