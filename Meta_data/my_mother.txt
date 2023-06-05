@@ -1,2 +1,2 @@
-ipfs://QmYVd57yo4MQhkJQUMnD7wY2zS1Ce3Drdre32ScWPiqzuS
-https://ipfs-2.thirdwebcdn.com/ipfs/QmYVd57yo4MQhkJQUMnD7wY2zS1Ce3Drdre32ScWPiqzuS
+ipfs://QmX2EnhnujWxdbLd581WKGxLFKLx21ibAUqftwV1AESg2z
+https://ipfs-2.thirdwebcdn.com/ipfs/QmX2EnhnujWxdbLd581WKGxLFKLx21ibAUqftwV1AESg2z

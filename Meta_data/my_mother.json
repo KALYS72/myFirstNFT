@@ -1,7 +1,7 @@
 {
     "name": "My mother",
     "description": "test token with photo of me and my mom",
-    "image": "ipfs://QmWA635gLBmenoxCZtJoVhPBBsmzyFxJoPrnWyUpduyfQH1",
+    "image": "ipfs://QmWA635gLBmenoxCZtJoVhPBBsmzyFxJoPrnWyUpduyfQH",
     "attributes": [
       {
         "trait_type": "Room",
